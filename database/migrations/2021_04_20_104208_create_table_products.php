@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProductsTable extends Migration
+class CreateTableProducts extends Migration
 {
     /**
      * Run the migrations.
@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('slug')->unique();
             $table->string('short_description')->nullable();
             $table->text('description');
+            $table->decimal('regular_price');
             $table->decimal('sale_price')->nullable();
             $table->string('SKU');
             $table->enum('stock_status',['instock','outofstock']);
@@ -42,3 +43,4 @@ class CreateProductsTable extends Migration
         Schema::dropIfExists('products');
     }
 }
+
