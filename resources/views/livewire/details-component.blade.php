@@ -14,7 +14,7 @@
                 <div class="wrap-product-detail">
                     <div class="detail-media">
                         <div class="product-gallery">
-                          <ul class="slides">
+                          <ul class="">
 
                             <li data-thumb="{{asset('assets/images/products')}}/{{ $product->image }}">
                                 <img src="{{asset('assets/images/products')}}/{{ $product->image }}" alt="{{ $product->name }}" />
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <div class="wrap-butons">
-                            <a href="#" class="btn add-to-cart">Add to Cart</a>
+                            <a href="#" class="btn add-to-cart" wire:click.prevent="store( {{ $product->id }},'{{$product->name}}', {{ $product->regular_price }} )">Add to Cart</a>
                             <div class="wrap-btn">
                                 <a href="#" class="btn btn-compare">Add Compare</a>
                                 <a href="#" class="btn btn-wishlist">Add Wishlist</a>
