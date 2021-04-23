@@ -55,6 +55,7 @@ body{
 	font-size: 13px;
 	color: #444444;
 	overflow-x: hidden;
+
 }
 img{
 	max-width: 100%;
@@ -720,7 +721,7 @@ li.menu-item .nav-label.sale-label::before{
 	background: transparent;
 }
 .header-style-1 .primary-nav-section{
-	background: #444444;
+	background: #ecbf33;
 }
 .primary{
 	position: relative;
@@ -1589,7 +1590,7 @@ li.menu-item .nav-label.sale-label::before{
     width: 100%;
     /*float: left;*/
     text-align: left;
-    background-color: #ff2832;
+    background-color: #0edceb;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -2189,7 +2190,7 @@ li.menu-item .nav-label.sale-label::before{
     -ms-transform: translateY(8.5px);
 }
 .coppy-right-box {
-    background: #2d2d2d;
+    background: #0edceb;
 }
 .coppy-right-box .coppy-right-item{
     display: inline-block;
@@ -2202,7 +2203,7 @@ li.menu-item .nav-label.sale-label::before{
 .coppy-right-box .coppy-right-text{
     font-size: 13px;
     line-height: 20px;
-    color: #aaaaaa;
+    color: #000;
     margin: 0;
     padding: 0;
 }
@@ -5594,7 +5595,7 @@ table.shop_attributes tbody{
 }
 .wrap-footer-item .wrap-hotline-footer .phone-number,
 .topbar-menu-area .topbar-menu .label-before.fa-mobile{
-    color: #ff2832 !important;
+    color: #0edceb !important;
 }
 .fill-color .header-nav-section ul li a{
     color: #ffffff;
@@ -7150,39 +7151,44 @@ background-color: #888888;
 	transition: background 0.3s ease 0s;
 }
 .btn-submitx:hover {
-	color: #ffffff !important;
+	color: #f6931f !important;
 	background: #333333 !important;
 }
 .wrap-login-item .form-item.login-form {
-	padding-right: 40px;
-	margin-bottom: 65px;
-	padding-left: 40px;
+	padding-right: 50px;
+	margin-bottom: 70px;
+	padding-left: 50px;
 }
 .text-red-600{
-    color: red;
+    color: #0edceb;
 }
 .pl-4, .px-4 {
-    padding-left: 1.5rem !important;
+    
+    padding-left: 2.5rem !important;
 }
-
+.pl-4, .px-4 {
+    
+    padding-right: 2.5rem !important;
+}
 .pb-2, .py-2 {
-    padding-bottom: .5rem !important;
+    padding-bottom: .9rem !important;
 }
 
 .pt-2, .py-2 {
-    padding-top: .5rem !important;
+    padding-top: .9rem !important;
 }
 
 .bg-white {
-    background-color: #fff !important;
+    background-color: #ca9656 !important;
 }
 
 .border {
-    border: 1px solid #dee2e6 !important;
+    border-radius: 10%;
+    border: 1px solid #0edceb !important;
 }
 
 .bg-white {
-    background-color: #fff !important;
+    background-color: #fdfdfd !important;
 }
 
 nav svg {

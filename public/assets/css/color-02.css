@@ -99,7 +99,7 @@
 .product-style-2:hover,
 .wrap-demo-item-1:hover img,
 .center-section .wrap-search-form{
-    border-color: #365db5;
+    border-color: #0edceb;
 }
 .widget.widget-tag-clouds ul li a:hover,
 .product-list-style .advance-info .add-to-cart:hover,
@@ -111,16 +111,16 @@
 .aboutus-info.style-small-left .list-showups label input[type="radio"]:checked + span.check-box,
 .wrap-articles article .info a.btn-to-post:hover
 {
-    border-color: #365db5 !important;
+    border-color: #0edceb !important;
 }
 .wrap-footer-content .wrap-function-info .fc-info-item
 {
-    border-color: #5372b9 !important;
+    border-color: #0edceb !important;
 }
 .wrap-footer-content .wrap-function-info .fc-info-item .wrap-left-info .fc-desc{
-    color: #869fd7 !important;
+    color: #0edceb !important;
 }
 /*default hover color*/
 .wrap-main-slide-2 .wrap-banners .btn:hover{
-    background-color: #4c5776;
+    background-color: #0edceb;
 }
